@@ -13,7 +13,7 @@ setup(
     keywords=['nlp', 'old norse', "philology"],
     license='MIT',
     long_description='',
-    name='old_norse_texts_heimskringla',
+    name='oldnorsetextsheimskringla',
     packages=find_packages(),
     url='https://github.com/clemsciences/old_norse_texts_heimskringla',
     version='1.2.0',
