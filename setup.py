@@ -3,7 +3,7 @@
 from setuptools import find_packages
 from setuptools import setup
 
-import oldnorsetextsheimskringla
+import eddas
 
 setup(
     author='Clément Besnier',
