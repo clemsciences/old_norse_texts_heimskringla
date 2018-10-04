@@ -6,21 +6,9 @@
 import codecs
 import os
 import re
-import sys
 
 from nltk.corpus.reader.tagged import TaggedCorpusReader
 from cltk.tokenize.word import tokenize_old_norse_words
-# from cltk.corpus.utils.importer import CorpusImporter
-
-# onc = CorpusImporter("old_norse")
-# onc.import_corpus("old_norse_dictionary_zoega")
-# module_path = os.path.join(os.environ["HOME"], "cltk_data", "old_nors", "dictionary", "old_norse_dictionary_zoega")
-# sys.path.append(module_path)
-# from old_norse_dictionary_zoega import reader as dictionary_reader
-# dictionary = dictionary_reader.Dictionary(dictionary_reader.dictionary_name)
-
-# word = dictionary.find("heimr")
-# print(word.description)
 
 
 from oldnorsetextsheimskringla.utils import remove_punctuations
