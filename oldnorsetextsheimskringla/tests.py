@@ -2,8 +2,8 @@
 Source:
 http://heimskringla.no/wiki/Kildeindex
 """
-from reader import PoeticEddaPOSTaggedReader
-from text_manager import *
+from oldnorsetextsheimskringla.reader import PoeticEddaPOSTaggedReader
+from oldnorsetextsheimskringla.text_manager import *
 
 
 edda_snorri_sites = ["http://heimskringla.no/wiki/Sk%C3%A1ldskaparm%C3%A1l", "http://heimskringla.no/wiki/Prologus",

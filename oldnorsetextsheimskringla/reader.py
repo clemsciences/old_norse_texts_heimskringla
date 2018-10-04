@@ -10,21 +10,21 @@ import sys
 
 from nltk.corpus.reader.tagged import TaggedCorpusReader
 from cltk.tokenize.word import tokenize_old_norse_words
-from cltk.corpus.utils.importer import CorpusImporter
+# from cltk.corpus.utils.importer import CorpusImporter
 
-onc = CorpusImporter("old_norse")
-onc.import_corpus("old_norse_dictionary_zoega")
-module_path = os.path.join(os.environ["HOME"], "cltk_data", "old_nors", "dictionary", "old_norse_dictionary_zoega")
-sys.path.append(module_path)
-#from old_norse_dictionary_zoega import reader as dictionary_reader
-#dictionary = dictionary_reader.Dictionary(dictionary_reader.dictionary_name)
+# onc = CorpusImporter("old_norse")
+# onc.import_corpus("old_norse_dictionary_zoega")
+# module_path = os.path.join(os.environ["HOME"], "cltk_data", "old_nors", "dictionary", "old_norse_dictionary_zoega")
+# sys.path.append(module_path)
+# from old_norse_dictionary_zoega import reader as dictionary_reader
+# dictionary = dictionary_reader.Dictionary(dictionary_reader.dictionary_name)
 
-#word = dictionary.find("heimr")
-#print(word.description)
+# word = dictionary.find("heimr")
+# print(word.description)
 
 
-from utils import remove_punctuations
-from text_manager import text_extractor, extract_text
+from oldnorsetextsheimskringla.utils import remove_punctuations
+from oldnorsetextsheimskringla.text_manager import text_extractor, extract_text
 
 __author__ = ["Clément Besnier <clemsciences@aol.com>", ]
 __license__ = "MIT License"
@@ -50,10 +50,12 @@ class Converter:
             text_extractor("html", "txt", os.path.join(book, text_name), ["complete.html"], ["complete.txt"],
                            extract_text)
 
+
 class PoeticEddaLemmatizationReader(TaggedCorpusReader):
     def __init__(self, poem_title):
         assert poem_title in poetic_edda_titles
-        TaggedCorpusReader.__init__(self, os.path.join(poetic_edda, poem_title, "txt_files", "lemmatization"), "lemmatized.txt")
+        TaggedCorpusReader.__init__(self, os.path.join(poetic_edda, poem_title, "txt_files", "lemmatization"),
+                                    "lemmatized.txt")
 
     @staticmethod
     def preprocess(path, filename):
@@ -64,7 +66,8 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
         text = "\n".join([line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"])
         indices = [(m.start(0), m.end(0)) for m in re.finditer(r"[0-9]{1,2}\.", text)]
         paragraphs = [str(i+1) + "\n" + text[indices[i][1]:indices[i+1][0]] for i in range(len(indices)-1)]
-        l_res = ["\n".join([" ".join([word+"/" for word in tokenize_old_norse_words(line)]) for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
+        l_res = ["\n".join([" ".join([word+"/" for word in tokenize_old_norse_words(line)])
+                            for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
         with open(os.path.join(path, "lemmatization", "test_lemmatized_"+filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
@@ -94,14 +97,14 @@ class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
         # Extract the paragraphs thanks to indices
         paragraphs = [str(i + 1) + "\n" + text[indices[i][1]:indices[i + 1][0]] for i in range(len(indices) - 1)]
         print(paragraphs[0].split(os.linesep))
-        l_res = ["\n".join([" ".join([word+"/" for word in tokenize_old_norse_words(line)]) for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
+        l_res = ["\n".join([" ".join([word+"/" for word in tokenize_old_norse_words(line)])
+                            for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
         print(l_res[:3])
         with open(os.path.join(path, "test_pos_tagged_" + filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
     def tagged_words(self, **kwargs):
         return TaggedCorpusReader.tagged_words(self, kwargs)
-
 
 
 class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
@@ -228,7 +231,8 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
 #     print(reader.words()[:300])
 #
 #     # Sæmundar-Edda/Völuspá/txt_files/syllabified/syllabified_text_complete.txt
-#     voluspa_paragraphs = PoeticEddaSyllabifiedReader.read_annotated_text("Sæmundar-Edda/Völuspá/txt_files/syllabified/"
+#     voluspa_paragraphs =
+# PoeticEddaSyllabifiedReader.read_annotated_text("Sæmundar-Edda/Völuspá/txt_files/syllabified/"
 #                                                                          "syllabified_text_complete.txt")
 #     print(voluspa_paragraphs[0])
 #     print(len(voluspa_paragraphs))
