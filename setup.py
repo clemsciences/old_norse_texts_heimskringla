@@ -3,11 +3,13 @@
 from setuptools import find_packages
 from setuptools import setup
 
+import oldnorsetextsheimskringla
 
 setup(
     author='Clément Besnier',
     author_email='clemsciences@aol.com',
     description='Old Norse Eddas',
+    include_package_data=True,
     keywords=['nlp', 'old norse', "philology"],
     license='MIT',
     long_description='',

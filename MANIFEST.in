@@ -1,0 +1,4 @@
+include *.md
+
+recursive-include Snorra-Edda *.txt *.html
+recursive-include Sæmundar-Edda *.txt *.html
