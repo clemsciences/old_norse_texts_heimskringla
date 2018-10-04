@@ -1,7 +1,11 @@
+"""
+Source:
+http://heimskringla.no/wiki/Kildeindex
+"""
+from reader import PoeticEddaPOSTaggedReader
 from text_manager import *
 
 
-# source: http://heimskringla.no/wiki/Kildeindex
 edda_snorri_sites = ["http://heimskringla.no/wiki/Sk%C3%A1ldskaparm%C3%A1l", "http://heimskringla.no/wiki/Prologus",
                      "http://heimskringla.no/wiki/H%C3%A1ttatal", "http://heimskringla.no/wiki/Gylfaginning",
                      "http://heimskringla.no/wiki/Edda_Snorra_Sturlusonar"]
@@ -39,18 +43,31 @@ older_edda_sites = ["http://heimskringla.no/wiki/Gr%C3%ADmnism%C3%A1l",
 
 
 def test_text_extractor():
-    text_extractor("html", "txt", "edda_snorri", edda_snorri_html, edda_snorri_txt, extract_text)
+    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"],
+                   extract_text)
 
 
 def test_load_text():
-    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"], extract_text)
+    test_text_extractor()
     loader = TextLoader(os.path.join("Sæmundar-Edda", "Atlakviða"), "txt")
     print(loader.get_available_names())
     print(loader.load()[:100])
 
+def test_voluspa():
+    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Völuspá"), ["complete.html"], ["complete.txt"],
+                   extract_text)
+    loader = TextLoader(os.path.join("Sæmundar-Edda", "Völuspá"), "txt")
+    print(loader.get_available_names())
+    print(loader.load()[:100])
+
+
+def test_voluspa_dictionary():
+    pos_annotated_text = PoeticEddaPOSTaggedReader("Völuspá")
+    print(pos_annotated_text.tagged_words()[:50])
+
 
 if __name__ == "__main__":
-    test_text_extractor()
-    test_load_text()
-
-
+    # test_text_extractor()
+    # test_load_text()
+    # test_voluspa()
+    test_voluspa_dictionary()
