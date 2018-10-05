@@ -11,8 +11,8 @@ from nltk.corpus.reader.tagged import TaggedCorpusReader
 from cltk.tokenize.word import tokenize_old_norse_words
 
 
-from oldnorsetextsheimskringla.utils import remove_punctuations
-from oldnorsetextsheimskringla.text_manager import text_extractor, extract_text
+from eddas.utils import remove_punctuations
+from eddas.text_manager import text_extractor, extract_text
 
 __author__ = ["Clément Besnier <clemsciences@aol.com>", ]
 __license__ = "MIT License"
