@@ -9,6 +9,7 @@ import re
 
 from nltk.corpus.reader.tagged import TaggedCorpusReader
 from cltk.tokenize.word import tokenize_old_norse_words
+from cltk.corpus.utils.importer import CorpusImporter
 
 
 from eddas.utils import remove_punctuations
@@ -16,6 +17,12 @@ from eddas.text_manager import text_extractor, extract_text
 
 __author__ = ["Clément Besnier <clemsciences@aol.com>", ]
 __license__ = "MIT License"
+
+USER_PATH = os.path.expanduser('~')
+CORPUS_PATH = os.path.join(USER_PATH, "cltk_data", "old_norse", "text", "old_norse_texts_heimskringla")
+
+onc = CorpusImporter('old_norse')
+onc.import_corpus("old_norse_texts_heimskringla")
 
 poetic_edda = "Sæmundar-Edda"
 poetic_edda_titles = ['Rígsþula', 'Helreið Brynhildar', 'Gróttasöngr', 'Sigrdrífumál', 'Hárbarðsljóð', 'Grímnismál',
@@ -35,21 +42,21 @@ class Converter:
         """
         book = "Sæmundar-Edda"
         for text_name in os.listdir(book):
-            text_extractor("html", "txt", os.path.join(book, text_name), ["complete.html"], ["complete.txt"],
+            text_extractor("html", "txt", os.path.join(CORPUS_PATH, book, text_name), ["complete.html"], ["complete.txt"],
                            extract_text)
 
 
 class PoeticEddaLemmatizationReader(TaggedCorpusReader):
     def __init__(self, poem_title):
         assert poem_title in poetic_edda_titles
-        TaggedCorpusReader.__init__(self, os.path.join(poetic_edda, poem_title, "txt_files", "lemmatization"),
+        TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "lemmatization"),
                                     "lemmatized.txt")
 
     @staticmethod
     def preprocess(path, filename):
         """
         """
-        with codecs.open(os.path.join(path, filename), "r", encoding="utf-8") as f:
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
             text = f.read()
         text = "\n".join([line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"])
         indices = [(m.start(0), m.end(0)) for m in re.finditer(r"[0-9]{1,2}\.", text)]
@@ -63,7 +70,7 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
 class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
     def __init__(self, poem_title):
         assert poem_title in poetic_edda_titles
-        TaggedCorpusReader.__init__(self, os.path.join(poetic_edda, poem_title, "txt_files", "pos"),
+        TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "pos"),
                                     "pos_tagged.txt")
 
     @staticmethod
@@ -76,7 +83,7 @@ class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
         :param filename:
         :return:
         """
-        with codecs.open(os.path.join(path, filename), "r", encoding="utf-8") as f:
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
             text = f.read()
         # Removes all the lines which are empty or begins with "#"
         text = "\n".join([line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"])
@@ -98,7 +105,7 @@ class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
 class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
     """"""
     def __init__(self, poem_title):
-        TaggedCorpusReader.__init__(self, os.path.join(poetic_edda, poem_title, "txt_files", "syllabified"),
+        TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "syllabified"),
                                     "syllabified.txt")
 
     @staticmethod
@@ -111,7 +118,7 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
         :param filename:
         :return:
         """
-        with codecs.open(os.path.join(path, filename), "r", encoding="utf-8") as f:
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
             text = f.read()
         # Removes all the lines which are empty or begins with "#"
         text = "\n".join([line for line in text.split("\n") if len(line) >= 1 and line[0] != "#"])
@@ -140,7 +147,7 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
                     else:
                         l_res.append(str(index + 1) + ".")
 
-        with open(os.path.join(path, "test_pre_syl_" + filename), "w", encoding="utf-8") as f:
+        with open(os.path.join(CORPUS_PATH, path, "test_pre_syl_" + filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
     @staticmethod
@@ -162,7 +169,7 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
 
         read syllable-annotated text
         """
-        with codecs.open(filename, "r", encoding="utf-8") as f:
+        with codecs.open(os.path.join(CORPUS_PATH, filename), "r", encoding="utf-8") as f:
             text = f.read()
         text = re.sub(r"\+" + os.linesep + "-" + os.linesep + "[0-9]+" + os.linesep + "\+" + os.linesep + "-", "*",
                       text)
