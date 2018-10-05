@@ -4,6 +4,7 @@ http://heimskringla.no/wiki/Kildeindex
 """
 from eddas.reader import PoeticEddaPOSTaggedReader
 from eddas.text_manager import *
+from eddas.utils import CORPUS_PATH
 
 
 edda_snorri_sites = ["http://heimskringla.no/wiki/Sk%C3%A1ldskaparm%C3%A1l", "http://heimskringla.no/wiki/Prologus",
@@ -43,21 +44,21 @@ older_edda_sites = ["http://heimskringla.no/wiki/Gr%C3%ADmnism%C3%A1l",
 
 
 def test_text_extractor():
-    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"],
+    text_extractor("html", "txt", os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"],
                    extract_text)
 
 
 def test_load_text():
     test_text_extractor()
-    loader = TextLoader(os.path.join("Sæmundar-Edda", "Atlakviða"), "txt")
+    loader = TextLoader(os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Atlakviða"), "txt")
     print(loader.get_available_names())
     print(loader.load()[:100])
 
 
 def test_voluspa():
-    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Völuspá"), ["complete.html"], ["complete.txt"],
+    text_extractor("html", "txt", os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Völuspá"), ["complete.html"], ["complete.txt"],
                    extract_text)
-    loader = TextLoader(os.path.join("Sæmundar-Edda", "Völuspá"), "txt")
+    loader = TextLoader(os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Völuspá"), "txt")
     print(loader.get_available_names())
     print(loader.load()[:100])
 

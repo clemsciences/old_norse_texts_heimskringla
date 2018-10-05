@@ -12,14 +12,11 @@ from cltk.tokenize.word import tokenize_old_norse_words
 from cltk.corpus.utils.importer import CorpusImporter
 
 
-from eddas.utils import remove_punctuations
+from eddas.utils import remove_punctuations, CORPUS_PATH
 from eddas.text_manager import text_extractor, extract_text
 
 __author__ = ["Clément Besnier <clemsciences@aol.com>", ]
 __license__ = "MIT License"
-
-USER_PATH = os.path.expanduser('~')
-CORPUS_PATH = os.path.join(USER_PATH, "cltk_data", "old_norse", "text", "old_norse_texts_heimskringla")
 
 onc = CorpusImporter('old_norse')
 onc.import_corpus("old_norse_texts_heimskringla")

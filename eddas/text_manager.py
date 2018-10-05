@@ -8,6 +8,8 @@ import codecs
 import json
 from bs4 import BeautifulSoup
 
+from eddas.utils import CORPUS_PATH
+
 __author__ = ["Clément Besnier", ]
 
 accepted_formats = ["html", "json", "txt"]
@@ -32,8 +34,10 @@ def text_extractor(orig_format, dest_format, folder, orig_filenames, dest_filena
     if not os.path.exists(os.path.join(folder, dest_format+"_files")):
         os.makedirs(os.path.join(folder, dest_format+"_files"))
     for orig_filename, dest_filename in zip(orig_filenames, dest_filenames):
-        with codecs.open(os.path.join(folder, orig_format+"_files", orig_filename), mode, encoding) as f_orig:
-            with codecs.open(os.path.join(folder, dest_format+"_files", dest_filename), "w", encoding) as f_dest:
+        with codecs.open(os.path.join(CORPUS_PATH, folder, orig_format+"_files", orig_filename), mode, encoding)\
+                as f_orig:
+            with codecs.open(os.path.join(CORPUS_PATH, folder, dest_format+"_files", dest_filename), "w", encoding) \
+                    as f_dest:
                 f_dest.write(extraction_method(f_orig.read()))
 
 
@@ -70,11 +74,11 @@ class TextLoader:
         """
         try:
             if self.extension in ["txt", "html"]:
-                with codecs.open(os.path.join(self.name, self.extension+"_files", "complete."+self.extension),
+                with codecs.open(os.path.join(CORPUS_PATH, self.name, self.extension+"_files", "complete."+self.extension),
                                  "r", encoding="utf8") as f:
                     return f.read()
             elif self.extension == "json":
-                with open(os.path.join(self.name, self.extension+"_files", "complete."+self.extension),
+                with open(os.path.join(CORPUS_PATH, self.name, self.extension+"_files", "complete."+self.extension),
                           "r", encoding="utf8") as f:
                     return json.load(f)
         except IOError:
@@ -83,10 +87,10 @@ class TextLoader:
 
 
 if __name__ == "__main__":
-    text_extractor("html", "txt", os.path.join("Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"],
+    text_extractor("html", "txt", os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Atlakviða"), ["complete.html"], ["complete.txt"],
                    extract_text)
-    text_extractor("html", "txt", os.path.join("Sæmundar-Edda",
+    text_extractor("html", "txt", os.path.join(CORPUS_PATH, "Sæmundar-Edda",
                                                "Hávamál"), ["complete.html"], ["complete.txt"], extract_text)
-    loader = TextLoader(os.path.join("Sæmundar-Edda", "Atlakviða"), "txt")
+    loader = TextLoader(os.path.join(CORPUS_PATH, "Sæmundar-Edda", "Atlakviða"), "txt")
     print(loader.get_available_names())
     print(loader.load()[:100])
