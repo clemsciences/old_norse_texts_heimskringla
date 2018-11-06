@@ -16,7 +16,7 @@ setup(
     name='eddas',
     packages=find_packages(),
     url='https://github.com/clemsciences/old_norse_texts_heimskringla',
-    version='1.3.0',
+    version='1.3.1',
     zip_safe=True, install_requires=['bs4', 'cltk', 'nltk']
     # test_suite='cltk.tests.test_cltk',
 )
