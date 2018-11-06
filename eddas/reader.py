@@ -6,6 +6,8 @@
 import codecs
 import os
 import re
+from collections import Counter, Set
+from typing import List
 
 from nltk.corpus.reader.tagged import TaggedCorpusReader
 from cltk.tokenize.word import tokenize_old_norse_words
@@ -44,7 +46,15 @@ class Converter:
 
 
 class PoeticEddaLemmatizationReader(TaggedCorpusReader):
+    """
+    Class to make a lemmatized annotated text and to read it
+    """
     def __init__(self, poem_title):
+        """
+        >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
+
+        :param poem_title:
+        """
         assert poem_title in poetic_edda_titles
         TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "lemmatization"),
                                     "lemmatized.txt")
@@ -52,6 +62,12 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
     @staticmethod
     def preprocess(path, filename):
         """
+        >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
+        >>> pel_reader.preprocess("Sæmundar-Edda/Völuspá/txt_files", "complete.txt")
+
+        :param path:
+        :param filename:
+        :return:
         """
         with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
             text = f.read()
@@ -63,8 +79,30 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
         with open(os.path.join(path, "lemmatization", "test_lemmatized_"+filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
+    def get_lemmas_set(self) -> Set[str]:
+        lemmas = set()
+        for word, tag in self.tagged_words():
+            lemmas.add(tag)
+        return lemmas
+
+    def get_sorted_lemmas(self) -> List[str]:
+        lemmas_set = self.get_lemmas_set()
+        lemmas = list(lemmas_set)
+        lemmas = sorted(lemmas)
+        return lemmas
+
+    def get_present_forms(self, lemma) -> List[str]:
+        present_forms = []
+        for word, tag in self.tagged_words():
+            if tag == lemma:
+                present_forms.append(word)
+        return present_forms
+
 
 class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
+    """
+    Class to make a POS annotated text and to read it
+    """
     def __init__(self, poem_title):
         assert poem_title in poetic_edda_titles
         TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "pos"),
@@ -95,12 +133,17 @@ class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
         with open(os.path.join(path, "test_pos_tagged_" + filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
-    def tagged_words(self, **kwargs):
-        return TaggedCorpusReader.tagged_words(self, kwargs)
+    def get_pos_tagset(self):
+        pos_tags = set()
+        for word, tag in self.tagged_words():
+            pos_tags.add(tag)
+        return pos_tags
 
 
 class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
-    """"""
+    """
+    Class to make a syllable annotated text and to read it
+    """
     def __init__(self, poem_title):
         TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "syllabified"),
                                     "syllabified.txt")
@@ -208,10 +251,19 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
         with codecs.open(dst_filename, "w", encoding="utf-8") as f:
             f.write(text)
 
+    def get_syllable_set(self) -> Set[str]:
+        syllables = set()
+        for word, tag in self.tagged_words():
+            for syllable in tag.split("+"):
+                syllables.add(syllable)
+        return syllables
 
-# TODO write a function which converts annotation of syllabified texts to list of syllables 
+    def get_syllable_counter(self) -> Counter:
+        return Counter(self.get_syllable_set())
+
+
+# TODO write a function which converts annotation of syllabified texts to list of syllables
 # TODO write a function which converts annotation of POS tagged texts to classes of morpho-syntactic features
-
 
 # if __name__ == "__main__":
 #     reader = TaggedCorpusReader(os.path.join("Sæmundar-Edda",
@@ -233,5 +285,4 @@ class PoeticEddaSyllabifiedReader(TaggedCorpusReader):
 
 
 if __name__ == "__main__":
-    pel_reader = PoeticEddaLemmatizationReader("Völuspá")
-    pel_reader.preprocess("Sæmundar-Edda/Völuspá/txt_files", "complete.txt")
+    pass
