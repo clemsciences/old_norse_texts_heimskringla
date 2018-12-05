@@ -1,4 +1,4 @@
-# Classic Texts from Old Norse Litterature 
+# Classic Texts from Old Norse Litterature
 ### About
 Texts retrieved from heimskrinla.no for easy use with cltk!
 
@@ -31,19 +31,21 @@ Of course, texts are in public domain due to their age, but please look at http:
     * Völundarkviða (In Codex Regius)
     * Völuspá (In Codex Regius)
     * þrymskviða (In Codex Regius)
- 
+
 
 * *Snorra Edda* in Old Norse, Prose Edda, Younger Edda or Snorri's Edda https://en.wikipedia.org/wiki/Prose_Edda
     * Prologus
     * Gylfaginning
     * Háttatal
     * Skáldskaparmál
- 
+
 ### POS annotations
 
 The tagset is available at http://nlp.cs.ru.is/pdf/Tagset.pdf
 
 God names are like person names.
+
+A POS tags reader is available. For a tag like 'sfg3eþ', it returns the correponding meaning, here it is 'verb indicative active third singular past'.
 
 Annotated texts:
 * Völuspá
