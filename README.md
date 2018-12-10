@@ -51,3 +51,5 @@ Annotated texts:
 * Völuspá
 
 Be careful! POS tagged texts were annotated by a non-specialist and were not checked by 'peer' review.
+
+Generate the package : pip3.6 install -U -e .
