@@ -47,7 +47,7 @@ hvat/hvat hann/hann megins/me+gins átti/át+ti
 stjörnur/stjör+nur þat/þat né/né vissu/vis+su 
 hvar/hvar þær/þær staði/sta+ði áttu/át+tu 
 
-Þá/Þá gengu/gen+gu regin/re+gin öll/öll 
+Þá/Þá gengu/geng+u regin/reg+in öll/öll 
 á/á rökstóla/rök+stó+la 
 ginnheilög/ginn+hei+lög goð/goð 
 ok/ok um/um þat/þat gættusk/gæt+tusk 
@@ -61,7 +61,7 @@ undorn/un+dorn ok/ok aftan/af+tan
 Hittusk/Hit+tusk æsir/æ+sir 
 á/á Iðavelli/I+ða+vel+li 
 þeir/þeir er/er hörg/hörg ok/ok hof/hof 
-hátimbruðu/há+tim+bru+ðu 
+há/há timbruðu/tim+bru+ðu 
 afla/a+fla lögðu/lög+ðu 
 auð/auð smíðuðu/smí+ðu+ðu 
 tangir/tan+gir skópu/skó+pu 
@@ -77,13 +77,13 @@ uns/uns þrjár/þrjár kvámu/kvá+mu
 ór/ór Jötunheimum/Jö+tun+hei+mum 
 
 
-Þá/Þá gengu/gengu regin/regin öll/öll 
-á/á rökstóla/rök+stóla 
+Þá/Þá gengu/geng+u regin/reg+in öll/öll 
+á/á rökstóla/rök+stó+la 
 ginnheilög/ginn+hei+lög goð/goð 
 ok/ok um/um þat/þat gættusk/gæt+tusk 
 hverir/hve+rir skyldi/skyl+di dverga/dver+ga 
 dróttir/drót+tir skepja/ske+pja 
-ór/ór Bri$mis/Bri$+mis blóði/bló+ði 
+ór/ór Brimis/Bri+mis blóði/bló+ði 
 ok/ok ór/ór Bláins/Blá+ins leggjum/leg+gjum 
 
 Þar/Þar var/var Móðsognir/Móð+sog+nir 
@@ -214,7 +214,7 @@ seið/seið hon/hon hug/hug leikinn/lei+kinn
 æ/æ var/var hon/hon angan/an+gan 
 illrar/ill+rar brúðar/brú+ðar 
 
-Þá/Þá gengu/gen+gu regin/re+gin öll/öll 
+Þá/Þá gengu/geng+u regin/reg+in öll/öll 
 á/á rökstóla/rök+stó+la 
 ginnheilög/ginn+hei+lög goð/goð 
 ok/ok um/um þat/þat gættusk/gæt+tusk 
@@ -232,7 +232,7 @@ borgar/bor+gar ása/á+sa
 knáttu/knát+tu vanir/va+nir vígspá/víg+spá 
 völlu/völ+lu sporna/spor+na 
 
-Þá/Þá gengu/gen+gu regin/re+gin öll/öll 
+Þá/Þá gengu/geng+u regin/reg+in öll/öll 
 á/á rökstóla/rök+stó+la 
 ginnheilög/ginn+hei+lög goð/goð 
 ok/ok um/um þat/þat gættusk/gæt+tusk 
