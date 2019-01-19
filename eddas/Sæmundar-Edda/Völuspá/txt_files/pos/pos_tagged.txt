@@ -44,8 +44,8 @@ sinni/fbkeþ mána/nkeþ ,/p
 hendi/nveþ inni/gkeþ hægri/lveþ
 um/aþ himinjöður/nkeþ ;/p
 sól/nken þat/fphen né/aa vissi/sfg3eþ ,/p
-hvar/aa hon/fpven sali/ átti/sfg3eþ ,/p
-máni/nken þat/fphen né/ vissi/sfg3eþ ,/p
+hvar/aa hon/fpven sali/nkeþ átti/sfg3eþ ,/p
+máni/nken þat/fphen né/aa vissi/sfg3eþ ,/p
 hvat/fshen hann/fpken megins/nhee átti/sfg3eþ ,/p
 stjörnur/nhfn þat/fphen né/aa vissu/sfg3fþ
 hvar/aa þær/fpvfn staði/nkeþ áttu/sfg3fþ ./p
@@ -376,7 +376,7 @@ Slíðr/nkenm heitir/sfg3en sú/faven ./p
 Stóð/sfg3eþ fyr/aa norðan/aa
 á/aþ Niðavöllum/nkfþm
 salr/nken ór/aþ gulli/nheþ
-Sindra/ ættar/nvee ;/p
+Sindra/nkeem ættar/nvee ;/p
 en/cc annarr/lkensf stóð/sfg3eþ
 á/aþ Ókólni/nkeþm
 bjórsalr/ jötuns/nkee ,/p
@@ -619,7 +619,7 @@ ok/cc um/aa moldþinur/nkeo
 máttkan/lkeosf dæma/sfg3fn
 ok/cc minnask/sfm3fn þar/aa
 á/a megindóma/nkfe
-ok/cc á/ Fimbultýs/nkee
+ok/cc á/ae Fimbultýs/nkee
 fornar/lvfosf rúnir/nvfo ./p
 
 61/
@@ -631,33 +631,33 @@ gullnar/lvfosf töflur/nvfo
 áttar/nvfn höfðu/sfg3fþ ./p
 
 62/
-Munu/sfg3fn ósánir/
-akrar/ vaxa/ ,/p
-böls/ mun/sfg3en alls/ batna/aa ,/p
-Baldr/nkenm mun/sfg3en koma/aa ;/p
-búa/ þeir/fpkfn Höðr/nkenm ok/cc Baldr/nkenm
-Hrofts/ sigtoftir/ ,/p
-vé/ valtíva/ ./p
+Munu/sfg3fn ósánir/sþgkfn
+akrar/nkfn vaxa/sng ,/p
+böls/nhee mun/sfg3en alls/lheesf batna/sng ,/p
+Baldr/nkenm mun/sfg3en koma/sng ;/p
+búa/sng þeir/fpkfn Höðr/nkenm ok/cc Baldr/nkenm
+Hrofts/nkee sigtoftir/nvfo ,/p
+vé/nhfn valtíva/nkfe ./p
 Vituð/sfg2fþ ér/fp2fn enn/aa -/p eða/cc hvat/fps ?/p
 
 63/
-Þá/aa kná/ Hænir/
-hlautvið/ kjósa/
-ok/cc burir/ byggja/
-bræðra/ tveggja/
-vindheim/ víðan/ ./p
+Þá/aa kná/sfg3en Hænir/nkenm
+hlautvið/nkeo kjósa/sng
+ok/cc burir/nkfn byggja/nfg3fn
+bræðra/nkfe tveggja/tfkfe
+vindheim/nkeo víðan/lkeosf ./p
 Vituð/sfg2fþ ér/fp2fn enn/aa -/p eða/cc hvat/fps ?/p
 
 64/
-Sal/nkeo sá/sfg3eþ hon/fpven standa/sng
-sólu/nveþ fegra/ ,/p
-gulli/ þakðan/
+Sal/nkeo sér/sfg3en hon/fpven standa/sng
+sólu/nveþ fegra/lkeosm ,/p
+gulli/nheþ þakðan/sþkeo
 á/aþ Gimléi/nkeþm ;/p
-þar/ skulu/ dyggvar/
-dróttir/ byggja/
-ok/cc um/ aldrdaga/
-ynðis/ njóta/ ./p
- 
+þar/aa skulu/sfg3fn dyggvar/lvfnsf
+dróttir/nvfn byggja/sng
+ok/cc um/aa aldrdaga/nkfe
+ynðis/nhee njóta/sng ./p
+
 65/
 Þá/aa kemr/sfg3en inn/gken ríki/lkenvf
 at/ct regindómi/nkeþ
