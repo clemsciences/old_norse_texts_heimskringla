@@ -99,6 +99,21 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
                 present_forms.append(word)
         return present_forms
 
+    def get_tei_text(self):
+        """
+        # >>> pel_reader = PoeticEddaLemmatizationReader("Hávamál")
+        # >>> print(pel_reader.get_tei_text())
+        """
+        l = []
+        for word, tag in self.tagged_words():
+            text = "<w me:msa=\"\" lemma=\""+tag.lower()+"\">\n" +\
+                "\t<me:facs>"+word+"</me:facs>\n" +\
+                "\t<me:dipl>"+word+"</me:dipl>\n" +\
+                "\t<me:norm>"+word+"</me:norm>\n" +\
+                "</w>"
+            l.append(text)
+        return "\n".join(l)
+
 
 class PoeticEddaPOSTaggedReader(TaggedCorpusReader):
     """
