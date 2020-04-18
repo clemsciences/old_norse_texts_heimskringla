@@ -2,7 +2,7 @@
 import os
 import re
 
-__author__ = ["Clément Besnier <clemsciences@aol.com>", ]
+__author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 __license__ = "MIT License"
 
 USER_PATH = os.path.expanduser('~')
@@ -18,3 +18,7 @@ def remove_punctuations(text):
     res = re.sub("x", "ks", res)
     res = re.sub(r" +", " ", res)
     return res
+
+
+def is_fake_punctuation(text):
+    return text in [",", ";", ":", "'", '"', "!", "?"]

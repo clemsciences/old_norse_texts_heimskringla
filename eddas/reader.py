@@ -13,10 +13,10 @@ from cltk.tokenize.word import WordTokenizer
 from cltk.corpus.utils.importer import CorpusImporter
 
 
-from eddas.utils import remove_punctuations, CORPUS_PATH
+from eddas.utils import remove_punctuations, CORPUS_PATH, is_fake_punctuation
 from eddas.text_manager import text_extractor, extract_text
 
-__author__ = ["Clément Besnier <clemsciences@aol.com>", ]
+__author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 __license__ = "MIT License"
 
 onc = CorpusImporter('old_norse')
@@ -27,7 +27,7 @@ poetic_edda_titles = ['Rígsþula', 'Helreið Brynhildar', 'Gróttasöngr', 'Sig
                       'Þrymskviða', 'Völuspá', 'Atlamál in grænlenzku', 'Hyndluljóð', 'Skírnismál', 'Hymiskviða',
                       'Atlakviða', 'Vafþrúðnismál', 'Oddrúnarkviða', 'Völundarkviða', 'Alvíssmál', 'Fáfnismál',
                       'Dráp Niflunga', 'Hávamál', 'Guðrúnarhvöt', 'Hamðismál', 'Baldrs draumar', 'Lokasenna',
-                      'Guðrúnarkviða']
+                      'Guðrúnarkviða', "Reginsmál"]
 
 old_norse_tokenizer = WordTokenizer("old_norse")
 
@@ -50,21 +50,31 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
     """
     Class to make a lemmatized annotated text and to read it
     """
-    def __init__(self, poem_title):
+    def __init__(self, poem_title, _type=None):
         """
         >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
 
         :param poem_title:
         """
         assert poem_title in poetic_edda_titles
-        TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files", "lemmatization"),
-                                    "lemmatized.txt")
+        if _type == "tei":
+            TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files",
+                                                           "lemmatization"),
+                                        "tei_lemmatized_complete.txt")
+        elif _type == "test":
+            TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files",
+                                                           "lemmatization"),
+                                        "test_lemmatized_complete.txt")
+        else:
+            TaggedCorpusReader.__init__(self, os.path.join(CORPUS_PATH, poetic_edda, poem_title, "txt_files",
+                                                       "lemmatization"),
+                                        "lemmatized.txt")
 
     @staticmethod
     def preprocess(path, filename):
         """
-        >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
-        >>> pel_reader.preprocess("Sæmundar-Edda/Völuspá/txt_files", "complete.txt")
+        >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál")
+        >>> pel_reader.preprocess(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
 
         :param path:
         :param filename:
@@ -78,6 +88,27 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
         l_res = ["\n".join([" ".join([word+"/" for word in old_norse_tokenizer.tokenize(line)])
                             for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
         with open(os.path.join(path, "lemmatization", "test_lemmatized_"+filename), "w", encoding="utf-8") as f:
+            f.write("\n".join(l_res))
+
+    @staticmethod
+    def preprocess_for_tei(path, filename):
+        """
+        >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál")
+        >>> pel_reader.preprocess_for_tei(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
+
+        :param path:
+        :param filename:
+        :return:
+        """
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
+            text = f.read()
+        text = "\n".join([line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"])
+        indices = [(m.start(0), m.end(0)) for m in re.finditer(r"[0-9]{1,2}\.", text)]
+        paragraphs = [str(i + 1) + "\n" + text[indices[i][1]:indices[i + 1][0]] for i in range(len(indices) - 1)]
+        l_res = [" LINE/\n".join([" ".join([word + "/" for word in old_norse_tokenizer.tokenize(line)])
+                                  for line in paragraph.split("\n") if len(line) > 0]) + " LINE/" for paragraph in
+                 paragraphs]
+        with open(os.path.join(path, "lemmatization", "tei_lemmatized_" + filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
     def get_lemmas_set(self):
@@ -101,17 +132,25 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
 
     def get_tei_text(self):
         """
-        # >>> pel_reader = PoeticEddaLemmatizationReader("Hávamál")
-        # >>> print(pel_reader.get_tei_text())
+        >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál", "tei")
+        >>> print(pel_reader.get_tei_text())
         """
-        l = []
+        l = ["<lg>\n<l>"]
         for word, tag in self.tagged_words():
-            text = "<w me:msa=\"\" lemma=\""+tag.lower()+"\">\n" +\
-                "\t<me:facs>"+word+"</me:facs>\n" +\
-                "\t<me:dipl>"+word+"</me:dipl>\n" +\
-                "\t<me:norm>"+word+"</me:norm>\n" +\
-                "</w>"
-            l.append(text)
+            if re.match(r"[0-9]{1,2}", word):
+                l.append("</l>\n</lg>\n<lg>\n<l>")
+            elif is_fake_punctuation(word):
+                continue
+            elif word == "LINE":
+                l.append("</l>\n<l>")
+            else:
+                text = "<w me:msa=\"\" lemma=\""+tag.lower()+"\">\n" +\
+                    "\t<me:facs>"+word+"</me:facs>\n" +\
+                    "\t<me:dipl>"+word+"</me:dipl>\n" +\
+                    "\t<me:norm>"+word+"</me:norm>\n" +\
+                    "</w>"
+                l.append(text)
+        l.append("</l>\n</lg>")
         return "\n".join(l)
 
 
