@@ -73,8 +73,8 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
     @staticmethod
     def preprocess(path, filename):
         """
-        >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál")
-        >>> pel_reader.preprocess(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
+        >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
+        >>> pel_reader.preprocess(os.path.join("Sæmundar-Edda", "Völuspá", "txt_files"), "complete.txt")
 
         :param path:
         :param filename:
@@ -91,10 +91,10 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
             f.write("\n".join(l_res))
 
     @staticmethod
-    def preprocess_for_tei(path, filename):
+    def preprocess_for_tei_only_poem(path, filename):
         """
         >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál")
-        >>> pel_reader.preprocess_for_tei(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
+        >>> pel_reader.preprocess_for_tei_only_poem(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
 
         :param path:
         :param filename:
@@ -109,6 +109,45 @@ class PoeticEddaLemmatizationReader(TaggedCorpusReader):
                                   for line in paragraph.split("\n") if len(line) > 0]) + " LINE/" for paragraph in
                  paragraphs]
         with open(os.path.join(path, "lemmatization", "tei_lemmatized_" + filename), "w", encoding="utf-8") as f:
+            f.write("\n".join(l_res))
+
+    @staticmethod
+    def preprocess_for_tei(path, filename):
+        """
+        >>> pel_reader = PoeticEddaLemmatizationReader("Reginsmál")
+        >>> pel_reader.preprocess_for_tei(os.path.join("Sæmundar-Edda", "Reginsmál", "txt_files"), "complete.txt")
+
+        :param path:
+        :param filename:
+        :return:
+        """
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
+            text = f.read()
+        text = [line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"]
+        l_res = [" LINE/\n".join([" ".join([word + "/" for word in old_norse_tokenizer.tokenize(line)])
+                                  for line in paragraph.split("\n") if len(line) > 0]) + " LINE/" for paragraph in
+                 text]
+        with open(os.path.join(path, "lemmatization", "tei_lemmatized_" + filename), "w", encoding="utf-8") as f:
+            f.write("\n".join(l_res))
+
+    @staticmethod
+    def preprocess_for_scansion(path, filename):
+        """
+        >>> pel_reader = PoeticEddaLemmatizationReader("Völuspá")
+        >>> pel_reader.preprocess_for_scansion(os.path.join("Sæmundar-Edda", "Völuspá", "txt_files"), "complete.txt")
+
+        :param path:
+        :param filename:
+        :return:
+        """
+        with codecs.open(os.path.join(CORPUS_PATH, path, filename), "r", encoding="utf-8") as f:
+            text = f.read()
+        text = "\n".join([line for line in text.split(os.linesep) if len(line) >= 1 and line[0] != "#"])
+        indices = [(m.start(0), m.end(0)) for m in re.finditer(r"[0-9]{1,2}\.", text)]
+        paragraphs = [str(i + 1) + "\n" + text[indices[i][1]:indices[i + 1][0]] for i in range(len(indices) - 1)]
+        l_res = ["\n".join([" ".join([word + "/" for word in old_norse_tokenizer.tokenize(line)])+" VERSE_TYPE/"
+                            for line in paragraph.split("\n") if len(line) > 0]) for paragraph in paragraphs]
+        with open(os.path.join(path, "scansion", "test_scansion_" + filename), "w", encoding="utf-8") as f:
             f.write("\n".join(l_res))
 
     def get_lemmas_set(self):

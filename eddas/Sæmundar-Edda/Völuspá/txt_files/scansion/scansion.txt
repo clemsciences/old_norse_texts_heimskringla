@@ -1,0 +1,667 @@
+1/ VERSE_TYPE/
+Hljóðs/P bið/x ek/x allar/Px VERSE_TYPE/A1
+helgar/Px kindir/Px ,/ VERSE_TYPE/A1
+meiri/Px ok/x minni/Px VERSE_TYPE/A1
+mögu/px Heimdallar/Psx ;/ VERSE_TYPED/
+viltu/Px at/x ek/x ,/ Valföðr/PS ,/ VERSE_TYPE/A2b
+vel/P fyr/x telja/Px VERSE_TYPE/A1
+forn/P spjöll/P fira/px ,/ VERSE_TYPE/A1s
+þau/x er/x fremst/P of/x man/P ./ VERSE_TYPE/B
+
+2/ VERSE_TYPE/
+Ek/P man/x jötna/Px VERSE_TYPE/A1
+ár/P of/x borna/Px ,/ VERSE_TYPE/A1
+þá/x er/x forðum/Px mik/P VERSE_TYPE/B
+fædda/Px höfðu/Px ;/ VERSE_TYPE/A1
+níu/p man/x ek/x heima/Px ,/ VERSE_TYPE/A1
+níu/px íviðjur/Pxx ,/ VERSE_TYPE/D
+mjötvið/PS mæran/Px VERSE_TYPE/A2a
+fyr/x mold/P neðan/px ./ VERSE_TYPE/C
+
+3/ VERSE_TYPE/
+Ár/P var/x alda/Px ,/ VERSE_TYPE/A1
+þat/x er/x ekki/px var/Px ,/ VERSE_TYPE/C
+var/x -a/x sandr/P né/x sær/P VERSE_TYPE/B
+né/x svalar/Px unnir/Px ;/ VERSE_TYPE/C
+jörð/P fannsk/x æva/Px VERSE_TYPE/A1
+né/x upphiminn/Psx ,/ VERSE_TYPE/C
+gap/P var/x ginnunga/PXx VERSE_TYPE/D*
+en/x gras/P hvergi/Px ./ VERSE_TYPE/C
+
+4/ VERSE_TYPE/
+Áðr/x Burs/P synir/px VERSE_TYPE/C
+bjöðum/px of/x yppðu/px ,/ VERSE_TYPE/A1
+þeir/x er/x Miðgarð/PS VERSE_TYPE/A3
+mæran/Px skópu/Px ;/ VERSE_TYPE/A1
+sól/P skein/x sunnan/Px VERSE_TYPE/A1
+á/x salar/px steina/Px ,/ VERSE_TYPE/C
+þá/x var/x grund/P gróin/px VERSE_TYPE/C
+grænum/Px lauki/Px ./ VERSE_TYPE/A1
+
+5/ VERSE_TYPE/
+Sól/P varp/x sunnan/Px ,/ VERSE_TYPE/A1
+sinni/Px mána/Px ,/ VERSE_TYPE/A1
+hendi/Px inni/xx hægri/Px VERSE_TYPE/A1
+um/x himinjöður/pxsx ;/ VERSE_TYPE/C
+sól/P þat/x né/x vissi/Px ,/ VERSE_TYPE/A1
+hvar/x hon/x sali/px átti/Px ,/ VERSE_TYPE/C
+máni/Px þat/x né/x vissi/Px ,/ VERSE_TYPE/A1
+hvat/x hann/x megins/px átti/Px ,/ VERSE_TYPE/C
+stjörnur/Px þat/x né/x vissu/Px VERSE_TYPE/A1
+hvar/x þær/x staði/px áttu/Px ./ VERSE_TYPE/C
+
+6/ VERSE_TYPE/
+Þá/x gengu/xx regin/px öll/P VERSE_TYPE/C-
+á/x rökstóla/PSx ,/ VERSE_TYPE/C
+ginnheilög/PSx goð/x ,/ VERSE_TYPE/E
+ok/x um/x þat/x gættusk/Px ;/ VERSE_TYPE/A3
+nótt/P ok/x niðjum/Px VERSE_TYPE/A1
+nöfn/P of/x gáfu/Px ,/ VERSE_TYPE/A1
+morgin/Px hétu/Px VERSE_TYPE/A1
+ok/x miðjan/Px dag/P ,/ VERSE_TYPE/B
+undorn/Px ok/x aftan/Px ,/ VERSE_TYPE/A1
+árum/Px at/x telja/Px ./ VERSE_TYPE/A1
+
+7/ VERSE_TYPE/
+Hittusk/xx æsir/Px VERSE_TYPE/A3
+á/x Iðavelli/pxSx ,/ VERSE_TYPE/C
+þeir/x er/x hörg/P ok/x hof/P VERSE_TYPE/B
+há/P timbruðu/Pxx ;/ VERSE_TYPE/D
+afla/Px lögðu/Px ,/ VERSE_TYPE/A1
+auð/P smíðuðu/Pxx ,/ VERSE_TYPE/D
+tangir/Px skópu/Px VERSE_TYPE/A
+ok/x tól/P gerðu/Px ./ VERSE_TYPE/C
+
+8/ VERSE_TYPE/
+Tefldu/Px í/x túni/Px ,/ VERSE_TYPE/A1
+teitir/Px váru/Px ,/ VERSE_TYPE/A1
+var/P þeim/x vettergis/PXx VERSE_TYPE/D*
+vant/P ór/x gulli/Px ,/ VERSE_TYPE/A1
+uns/x þrjár/X kvámu/Px VERSE_TYPE/C
+þursa/Px meyjar/Px VERSE_TYPE/A1
+ámáttkar/PSx mjök/P VERSE_TYPE/E
+ór/x Jötunheimum/pxSx ./ VERSE_TYPE/C
+
+9/ VERSE_TYPE/
+Þá/x gengu/xx regin/px öll/P VERSE_TYPE/C-
+á/x rökstóla/PSx ,/ VERSE_TYPE/C
+ginnheilög/PSx goð/x ,/ VERSE_TYPE/E
+ok/x um/x þat/x gættusk/Px ;/ VERSE_TYPE/A3
+hver(i)r/x skyldi/xx dverga/Px VERSE_TYPE/A3
+dróttir/Px skepja/Px VERSE_TYPE/A1
+ór/x Brimis/px blóði/Px VERSE_TYPE/C
+ok/x ór/x Bláins/px leggjum/Px ./ VERSE_TYPE/C
+
+10/ VERSE_TYPE/
+Þar/x var/x Móðsognir/PSx VERSE_TYPE/C
+mæztr/P of/x orðinn/Px VERSE_TYPE/A1
+dverga/Px allra/Px ,/ VERSE_TYPE/A1
+en/x Durinn/px annarr/Px ;/ VERSE_TYPE/C
+þeir/x mannlíkun/PSx VERSE_TYPE/C
+mörg/P of/x gerðu/Px VERSE_TYPE/A1
+dvergar/Px í/x jörðu/Px ,/ VERSE_TYPE/A1
+sem/x Durinn/px sagði/Px ./ VERSE_TYPE/C
+
+11/ VERSE_TYPE/
+Nýi/ ,/ Niði/ ,/ VERSE_TYPE/
+Norðri/ ,/ Suðri/ ,/ VERSE_TYPE/
+Austri/ ,/ Vestri/ ,/ VERSE_TYPE/
+Alþjófr/ ,/ Dvalinn/ ,/ VERSE_TYPE/
+Nár/ ok/ Náinn/ VERSE_TYPE/
+Nípingr/ ,/ Dáinn/ VERSE_TYPE/
+Bívurr/ ,/ Bávurr/ ,/ VERSE_TYPE/
+Bömburr/ ,/ Nóri/ ,/ VERSE_TYPE/
+Ánn/ ok/ Ánarr/ ,/ VERSE_TYPE/
+Óinn/ ,/ Mjöðvitnir/ ./ VERSE_TYPE/
+
+12/ VERSE_TYPE/
+Veggr/ ok/ Gandalfr/ ,/ VERSE_TYPE/
+Vindalfr/ ,/ Þorinn/ ,/ VERSE_TYPE/
+Þrár/ ok/ Þráinn/ ,/ VERSE_TYPE/
+Þekkr/ ,/ Litr/ ok/ Vitr/ ,/ VERSE_TYPE/
+Nýr/ ok/ Nýráðr/ ,/ VERSE_TYPE/
+nú/ hefi/ ek/ dverga/ ,/ VERSE_TYPE/
+Reginn/ ok/ Ráðsviðr/ ,/ VERSE_TYPE/
+rétt/ of/ talða/ ./ VERSE_TYPE/
+
+13/ VERSE_TYPE/
+Fíli/ ,/ Kíli/ ,/ VERSE_TYPE/
+Fundinn/ ,/ Náli/ ,/ VERSE_TYPE/
+Hefti/ ,/ Víli/ ,/ VERSE_TYPE/
+Hannar/ ,/ Svíurr/ ,/ VERSE_TYPE/
+Billingr/ ,/ Brúni/ ,/ VERSE_TYPE/
+Bíldr/ ok/ Buri/ ,/ VERSE_TYPE/
+Frár/ ,/ Hornbori/ ,/ VERSE_TYPE/
+Frægr/ ok/ Lóni/ ,/ VERSE_TYPE/
+Aurvangr/ ,/ Jari/ ,/ VERSE_TYPE/
+Eikinskjaldi/ ./ VERSE_TYPE/
+
+14/ VERSE_TYPE/
+Mál/ er/ dverga/ VERSE_TYPE/
+í/ Dvalins/ liði/ VERSE_TYPE/
+ljóna/ kindum/ VERSE_TYPE/
+til/ Lofars/ telja/ ,/ VERSE_TYPE/
+þeir/ er/ sóttu/ VERSE_TYPE/
+frá/ salar/ steini/ VERSE_TYPE/
+Aurvanga/ sjöt/ VERSE_TYPE/
+til/ Jöruvalla/ ./ VERSE_TYPE/
+
+15/ VERSE_TYPE/
+Þar/ var/ Draupnir/ VERSE_TYPE/
+ok/ Dolgþrasir/ ,/ VERSE_TYPE/
+Hár/ ,/ Haugspori/ ,/ VERSE_TYPE/
+Hlévangr/ ,/ Glóinn/ ,/ VERSE_TYPE/
+Dóri/ ,/ Óri/ VERSE_TYPE/
+Dúfr/ ,/ Andvari/ VERSE_TYPE/
+Skirfir/ ,/ Virfir/ ,/ VERSE_TYPE/
+Skáfiðr/ ,/ Ái/ ./ VERSE_TYPE/
+
+16/ VERSE_TYPE/
+Alfr/ ok/ Yngvi/ ,/ VERSE_TYPE/
+Eikinskjaldi/ ,/ VERSE_TYPE/
+Fjalarr/ ok/ Frosti/ ,/ VERSE_TYPE/
+Finnr/ ok/ Ginnarr/ ;/ VERSE_TYPE/
+þat/ mun/ æ/ uppi/ VERSE_TYPE/
+meðan/ öld/ lifir/ ,/ VERSE_TYPE/
+langniðja/ tal/ VERSE_TYPE/
+Lofars/ hafat/ ./ VERSE_TYPE/
+
+-/ -/ -/ -/ -/ -/ -/ -/ -/ VERSE_TYPE/
+
+17/ VERSE_TYPE/
+Unz/ þrír/ kvámu/ VERSE_TYPE/
+ór/ því/ liði/ VERSE_TYPE/
+öflgir/ ok/ ástkir/ VERSE_TYPE/
+æsir/ at/ húsi/ ,/ VERSE_TYPE/
+fundu/ á/ landi/ VERSE_TYPE/
+lítt/ megandi/ VERSE_TYPE/
+Ask/ ok/ Emblu/ VERSE_TYPE/
+örlöglausa/ ./ VERSE_TYPE/
+
+18/ VERSE_TYPE/
+Önd/ þau/ né/ áttu/ ,/ VERSE_TYPE/
+óð/ þau/ né/ höfðu/ ,/ VERSE_TYPE/
+lá/ né/ læti/ VERSE_TYPE/
+né/ litu/ góða/ ;/ VERSE_TYPE/
+önd/ gaf/ Óðinn/ ,/ VERSE_TYPE/
+óð/ gaf/ Hænir/ ,/ VERSE_TYPE/
+lá/ gaf/ Lóðurr/ VERSE_TYPE/
+ok/ litu/ góða/ ./ VERSE_TYPE/
+
+19/ VERSE_TYPE/
+Ask/ veit/ ek/ standa/ ,/ VERSE_TYPE/
+heitir/ Yggdrasill/ ,/ VERSE_TYPE/
+hár/ baðmr/ ,/ ausinn/ VERSE_TYPE/
+hvíta/ auri/ ;/ VERSE_TYPE/
+þaðan/ koma/ döggvar/ ,/ VERSE_TYPE/
+þærs/ í/ dala/ falla/ ,/ VERSE_TYPE/
+stendr/ æ/ yfir/ grænn/ VERSE_TYPE/
+Urðarbrunni/ ./ VERSE_TYPE/
+
+20/ VERSE_TYPE/
+Þaðan/ koma/ meyjar/ VERSE_TYPE/
+margs/ vitandi/ VERSE_TYPE/
+þrjár/ ór/ þeim/ sæ/ ,/ VERSE_TYPE/
+er/ und/ þolli/ stendr/ ;/ VERSE_TYPE/
+Urð/ hétu/ eina/ ,/ VERSE_TYPE/
+aðra/ Verðandi/ ,/ VERSE_TYPE/
+-/ skáru/ á/ skíði/ ,/ -/ VERSE_TYPE/
+Skuld/ ina/ þriðju/ ;/ VERSE_TYPE/
+þær/ lög/ lögðu/ ,/ VERSE_TYPE/
+þær/ líf/ kuru/ VERSE_TYPE/
+alda/ börnum/ ,/ VERSE_TYPE/
+örlög/ seggja/ ./ VERSE_TYPE/
+
+21/ VERSE_TYPE/
+Þat/ man/ hon/ folkvíg/ VERSE_TYPE/
+fyrst/ í/ heimi/ ,/ VERSE_TYPE/
+er/ Gullveigu/ VERSE_TYPE/
+geirum/ studdu/ VERSE_TYPE/
+ok/ í/ höll/ Hárs/ VERSE_TYPE/
+hana/ brenndu/ ,/ VERSE_TYPE/
+þrisvar/ brenndu/ ,/ VERSE_TYPE/
+þrisvar/ borna/ ,/ VERSE_TYPE/
+oft/ ,/ ósjaldan/ ,/ VERSE_TYPE/
+þó/ hon/ enn/ lifir/ ./ VERSE_TYPE/
+
+22/ VERSE_TYPE/
+Heiði/ hana/ hétu/ VERSE_TYPE/
+hvars/ til/ húsa/ kom/ ,/ VERSE_TYPE/
+völu/ velspáa/ ,/ VERSE_TYPE/
+vitti/ hon/ ganda/ ;/ VERSE_TYPE/
+seið/ hon/ ,/ hvars/ hon/ kunni/ ,/ VERSE_TYPE/
+seið/ hon/ hug/ leikinn/ ,/ VERSE_TYPE/
+æ/ var/ hon/ angan/ VERSE_TYPE/
+illrar/ brúðar/ ./ VERSE_TYPE/
+
+23/ VERSE_TYPE/
+Þá/ gengu/ regin/ öll/ VERSE_TYPE/
+á/ rökstóla/ ,/ VERSE_TYPE/
+ginnheilög/ goð/ ,/ VERSE_TYPE/
+ok/ um/ þat/ gættusk/ ,/ VERSE_TYPE/
+hvárt/ skyldu/ æsir/ VERSE_TYPE/
+afráð/ gjalda/ VERSE_TYPE/
+eða/ skyldu/ goðin/ öll/ VERSE_TYPE/
+gildi/ eiga/ ./ VERSE_TYPE/
+
+24/ VERSE_TYPE/
+Fleygði/ Óðinn/ VERSE_TYPE/
+ok/ í/ folk/ of/ skaut/ ,/ VERSE_TYPE/
+þat/ var/ enn/ folkvíg/ VERSE_TYPE/
+fyrst/ í/ heimi/ ;/ VERSE_TYPE/
+brotinn/ var/ borðveggr/ VERSE_TYPE/
+borgar/ ása/ ,/ VERSE_TYPE/
+knáttu/ vanir/ vígspá/ VERSE_TYPE/
+völlu/ sporna/ ./ VERSE_TYPE/
+
+25/ VERSE_TYPE/
+Þá/ gengu/ regin/ öll/ VERSE_TYPE/
+á/ rökstóla/ ,/ VERSE_TYPE/
+ginnheilög/ goð/ ,/ VERSE_TYPE/
+ok/ um/ þat/ gættusk/ ,/ VERSE_TYPE/
+hverjir/ hefði/ loft/ allt/ VERSE_TYPE/
+lævi/ blandit/ VERSE_TYPE/
+eða/ ætt/ jötuns/ VERSE_TYPE/
+Óðs/ mey/ gefna/ ./ VERSE_TYPE/
+
+26/ VERSE_TYPE/
+Þórr/ einn/ þar/ vá/ VERSE_TYPE/
+þrunginn/ móði/ ,/ VERSE_TYPE/
+-/ hann/ sjaldan/ sitr/ -/ VERSE_TYPE/
+er/ hann/ slíkt/ of/ fregn/ -/ :/ VERSE_TYPE/
+á/ gengusk/ eiðar/ ,/ VERSE_TYPE/
+orð/ ok/ særi/ ,/ VERSE_TYPE/
+mál/ öll/ meginlig/ ,/ VERSE_TYPE/
+er/ á/ meðal/ fóru/ ./ VERSE_TYPE/
+
+27/ VERSE_TYPE/
+Veit/ hon/ Heimdallar/ VERSE_TYPE/
+hljóð/ of/ folgit/ VERSE_TYPE/
+und/ heiðvönum/ VERSE_TYPE/
+helgum/ baðmi/ ,/ VERSE_TYPE/
+á/ sér/ hon/ ausask/ VERSE_TYPE/
+aurgum/ forsi/ VERSE_TYPE/
+af/ veði/ Valföðrs/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+28/ VERSE_TYPE/
+Ein/ sat/ hon/ úti/ ,/ VERSE_TYPE/
+þá/ er/ inn/ aldni/ kom/ VERSE_TYPE/
+yggjungr/ ása/ VERSE_TYPE/
+ok/ í/ augu/ leit/ ./ VERSE_TYPE/
+Hvers/ fregnið/ mik/ ?/ VERSE_TYPE/
+Hví/ freistið/ mín/ ?/ VERSE_TYPE/
+Allt/ veit/ ek/ ,/ Óðinn/ ,/ VERSE_TYPE/
+hvar/ þú/ auga/ falt/ ,/ VERSE_TYPE/
+í/ inum/ mæra/ VERSE_TYPE/
+Mímisbrunni/ ./ VERSE_TYPE/
+Drekkr/ mjöð/ Mímir/ VERSE_TYPE/
+morgun/ hverjan/ VERSE_TYPE/
+af/ veði/ Valföðrs/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+29/ VERSE_TYPE/
+Valði/ henni/ Herföðr/ VERSE_TYPE/
+hringa/ ok/ men/ ,/ VERSE_TYPE/
+fekk/ spjöll/ spaklig/ VERSE_TYPE/
+ok/ spá/ ganda/ ,/ VERSE_TYPE/
+sá/ hon/ vítt/ ok/ of/ vítt/ VERSE_TYPE/
+of/ veröld/ hverja/ ./ VERSE_TYPE/
+
+30/ VERSE_TYPE/
+Sá/ hon/ valkyrjur/ VERSE_TYPE/
+vítt/ of/ komnar/ ,/ VERSE_TYPE/
+görvar/ at/ ríða/ VERSE_TYPE/
+til/ Goðþjóðar/ ;/ VERSE_TYPE/
+Skuld/ helt/ skildi/ ,/ VERSE_TYPE/
+en/ Skögul/ önnur/ ,/ VERSE_TYPE/
+Gunnr/ ,/ Hildr/ ,/ Göndul/ VERSE_TYPE/
+ok/ Geirskögul/ ./ VERSE_TYPE/
+Nú/ eru/ talðar/ VERSE_TYPE/
+nönnur/ Herjans/ ,/ VERSE_TYPE/
+görvar/ at/ ríða/ VERSE_TYPE/
+grund/ valkyrjur/ ./ VERSE_TYPE/
+
+31/ VERSE_TYPE/
+Ek/ sá/ Baldri/ ,/ VERSE_TYPE/
+blóðgum/ tívur/ ,/ VERSE_TYPE/
+Óðins/ barni/ ,/ VERSE_TYPE/
+örlög/ folgin/ ;/ VERSE_TYPE/
+stóð/ of/ vaxinn/ VERSE_TYPE/
+völlum/ hæri/ VERSE_TYPE/
+mjór/ ok/ mjök/ fagr/ VERSE_TYPE/
+mistilteinn/ ./ VERSE_TYPE/
+
+32/ VERSE_TYPE/
+Varð/ af/ þeim/ meiði/ ,/ VERSE_TYPE/
+er/ mær/ sýndisk/ ,/ VERSE_TYPE/
+harmflaug/ hættlig/ ,/ VERSE_TYPE/
+Höðr/ nam/ skjóta/ ;/ VERSE_TYPE/
+Baldrs/ bróðir/ var/ VERSE_TYPE/
+of/ borinn/ snemma/ ,/ VERSE_TYPE/
+sá/ nam/ Óðins/ sonr/ VERSE_TYPE/
+einnættr/ vega/ ./ VERSE_TYPE/
+
+33/ VERSE_TYPE/
+Þó/ hann/ æva/ hendr/ VERSE_TYPE/
+né/ höfuð/ kembði/ ,/ VERSE_TYPE/
+áðr/ á/ bál/ of/ bar/ VERSE_TYPE/
+Baldrs/ andskota/ ;/ VERSE_TYPE/
+en/ Frigg/ of/ grét/ VERSE_TYPE/
+í/ Fensölum/ VERSE_TYPE/
+vá/ Valhallar/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+34/ VERSE_TYPE/
+Þá/ kná/ Váli/ VERSE_TYPE/
+vígbönd/ snúa/ ,/ VERSE_TYPE/
+heldr/ váru/ harðgör/ VERSE_TYPE/
+höft/ ór/ þörmum/ ./ VERSE_TYPE/
+
+35/ VERSE_TYPE/
+Haft/ sá/ hon/ liggja/ VERSE_TYPE/
+und/ Hveralundi/ ,/ VERSE_TYPE/
+lægjarns/ líki/ VERSE_TYPE/
+Loka/ áþekkjan/ ;/ VERSE_TYPE/
+þar/ sitr/ Sigyn/ VERSE_TYPE/
+þeygi/ of/ sínum/ VERSE_TYPE/
+ver/ vel/ glýjuð/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+36/ VERSE_TYPE/
+Á/ fellur/ austan/ VERSE_TYPE/
+um/ eitrdala/ VERSE_TYPE/
+söxum/ ok/ sverðum/ ,/ VERSE_TYPE/
+Slíðr/ heitir/ sú/ ./ VERSE_TYPE/
+
+37/ VERSE_TYPE/
+Stóð/ fyr/ norðan/ VERSE_TYPE/
+á/ Niðavöllum/ VERSE_TYPE/
+salr/ ór/ gulli/ VERSE_TYPE/
+Sindra/ ættar/ ;/ VERSE_TYPE/
+en/ annarr/ stóð/ VERSE_TYPE/
+á/ Ókólni/ VERSE_TYPE/
+bjórsalr/ jötuns/ ,/ VERSE_TYPE/
+en/ sá/ Brimir/ heitir/ ./ VERSE_TYPE/
+
+38/ VERSE_TYPE/
+Sal/ sá/ hon/ standa/ VERSE_TYPE/
+sólu/ fjarri/ VERSE_TYPE/
+Náströndu/ á/ ,/ VERSE_TYPE/
+norðr/ horfa/ dyrr/ ;/ VERSE_TYPE/
+falla/ eitrdropar/ VERSE_TYPE/
+inn/ um/ ljóra/ ,/ VERSE_TYPE/
+sá/ er/ undinn/ salr/ VERSE_TYPE/
+orma/ hryggjum/ ./ VERSE_TYPE/
+
+39/ VERSE_TYPE/
+Sá/ hon/ þar/ vaða/ VERSE_TYPE/
+þunga/ strauma/ VERSE_TYPE/
+menn/ meinsvara/ VERSE_TYPE/
+ok/ morðvarga/ VERSE_TYPE/
+ok/ þann/ er/ annars/ glepr/ VERSE_TYPE/
+eyrarúnu/ ;/ VERSE_TYPE/
+þar/ saug/ Niðhöggr/ VERSE_TYPE/
+nái/ framgengna/ ,/ VERSE_TYPE/
+sleit/ vargr/ vera/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+40/ VERSE_TYPE/
+Austr/ sat/ in/ aldna/ VERSE_TYPE/
+í/ Járnviði/ VERSE_TYPE/
+ok/ fæddi/ þar/ VERSE_TYPE/
+Fenris/ kindir/ ;/ VERSE_TYPE/
+verðr/ af/ þeim/ öllum/ VERSE_TYPE/
+einna/ nokkurr/ VERSE_TYPE/
+tungls/ tjúgari/ VERSE_TYPE/
+í/ trölls/ hami/ ./ VERSE_TYPE/
+
+41/ VERSE_TYPE/
+Fyllisk/ fjörvi/ VERSE_TYPE/
+feigra/ manna/ ,/ VERSE_TYPE/
+rýðr/ ragna/ sjöt/ VERSE_TYPE/
+rauðum/ dreyra/ ;/ VERSE_TYPE/
+svört/ verða/ sólskin/ VERSE_TYPE/
+um/ sumur/ eftir/ ,/ VERSE_TYPE/
+veðr/ öll/ válynd/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+42/ VERSE_TYPE/
+Sat/ þar/ á/ haugi/ VERSE_TYPE/
+ok/ sló/ hörpu/ VERSE_TYPE/
+gýgjar/ hirðir/ ,/ VERSE_TYPE/
+glaðr/ Eggþér/ ;/ VERSE_TYPE/
+gól/ of/ hánum/ VERSE_TYPE/
+í/ galgviði/ VERSE_TYPE/
+fagrrauðr/ hani/ ,/ VERSE_TYPE/
+sá/ er/ Fjalarr/ heitir/ ./ VERSE_TYPE/
+
+43/ VERSE_TYPE/
+Gól/ of/ ásum/ VERSE_TYPE/
+Gullinkambi/ ,/ VERSE_TYPE/
+sá/ vekr/ hölða/ VERSE_TYPE/
+at/ Herjaföðrs/ ;/ VERSE_TYPE/
+en/ annarr/ gelr/ VERSE_TYPE/
+fyr/ jörð/ neðan/ VERSE_TYPE/
+sótrauðr/ hani/ VERSE_TYPE/
+at/ sölum/ Heljar/ ./ VERSE_TYPE/
+
+44/ VERSE_TYPE/
+Geyr/ nú/ Garmr/ mjök/ VERSE_TYPE/
+fyr/ Gnipahelli/ ,/ VERSE_TYPE/
+festr/ mun/ slitna/ ,/ VERSE_TYPE/
+en/ freki/ renna/ ;/ VERSE_TYPE/
+fjölð/ veit/ ek/ fræða/ ,/ VERSE_TYPE/
+fram/ sé/ ek/ lengra/ VERSE_TYPE/
+um/ ragna/ rök/ VERSE_TYPE/
+römm/ sigtíva/ ./ VERSE_TYPE/
+
+45/ VERSE_TYPE/
+Bræðr/ munu/ berjask/ VERSE_TYPE/
+ok/ at/ bönum/ verðask/ ,/ VERSE_TYPE/
+munu/ systrungar/ VERSE_TYPE/
+sifjum/ spilla/ ;/ VERSE_TYPE/
+hart/ er/ í/ heimi/ ,/ VERSE_TYPE/
+hórdómr/ mikill/ ,/ VERSE_TYPE/
+skeggöld/ ,/ skalmöld/ ,/ VERSE_TYPE/
+skildir/ ro/ klofnir/ ,/ VERSE_TYPE/
+vindöld/ ,/ vargöld/ ,/ VERSE_TYPE/
+áðr/ veröld/ steypisk/ ;/ VERSE_TYPE/
+mun/ engi/ maðr/ VERSE_TYPE/
+öðrum/ þyrma/ ./ VERSE_TYPE/
+
+46/ VERSE_TYPE/
+Leika/ Míms/ synir/ ,/ VERSE_TYPE/
+en/ mjötuðr/ kyndisk/ VERSE_TYPE/
+at/ inu/ galla/ VERSE_TYPE/
+Gjallarhorni/ ;/ VERSE_TYPE/
+hátt/ blæss/ Heimdallr/ ,/ VERSE_TYPE/
+horn/ er/ á/ lofti/ ,/ VERSE_TYPE/
+mælir/ Óðinn/ VERSE_TYPE/
+við/ Míms/ höfuð/ ./ VERSE_TYPE/
+
+47/ VERSE_TYPE/
+Skelfr/ Yggdrasils/ VERSE_TYPE/
+askr/ standandi/ ,/ VERSE_TYPE/
+ymr/ it/ aldna/ tré/ ,/ VERSE_TYPE/
+en/ jötunn/ losnar/ ;/ VERSE_TYPE/
+hræðask/ allir/ VERSE_TYPE/
+á/ helvegum/ VERSE_TYPE/
+áðr/ Surtar/ þann/ VERSE_TYPE/
+sefi/ of/ gleypir/ ./ VERSE_TYPE/
+
+48/ VERSE_TYPE/
+Hvat/ er/ með/ ásum/ ?/ VERSE_TYPE/
+Hvat/ er/ með/ alfum/ ?/ VERSE_TYPE/
+Gnýr/ allr/ Jötunheimr/ ,/ VERSE_TYPE/
+æsir/ ro/ á/ þingi/ ,/ VERSE_TYPE/
+stynja/ dvergar/ VERSE_TYPE/
+fyr/ steindurum/ ,/ VERSE_TYPE/
+veggbergs/ vísir/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+49/ VERSE_TYPE/
+Geyr/ nú/ Garmr/ mjök/ VERSE_TYPE/
+fyr/ Gnipahelli/ ,/ VERSE_TYPE/
+festr/ mun/ slitna/ VERSE_TYPE/
+en/ freki/ renna/ ;/ VERSE_TYPE/
+fjölð/ veit/ ek/ fræða/ ,/ VERSE_TYPE/
+fram/ sé/ ek/ lengra/ VERSE_TYPE/
+um/ ragna/ rök/ VERSE_TYPE/
+römm/ sigtíva/ ./ VERSE_TYPE/
+
+50/ VERSE_TYPE/
+Hrymr/ ekr/ austan/ ,/ VERSE_TYPE/
+hefisk/ lind/ fyrir/ ,/ VERSE_TYPE/
+snýsk/ Jörmungandr/ VERSE_TYPE/
+í/ jötunmóði/ ;/ VERSE_TYPE/
+ormr/ knýr/ unnir/ ,/ VERSE_TYPE/
+en/ ari/ hlakkar/ ,/ VERSE_TYPE/
+slítr/ nái/ niðfölr/ ,/ VERSE_TYPE/
+Naglfar/ losnar/ ./ VERSE_TYPE/
+
+51/ VERSE_TYPE/
+Kjóll/ ferr/ austan/ ,/ VERSE_TYPE/
+koma/ munu/ Múspells/ VERSE_TYPE/
+of/ lög/ lýðir/ ,/ VERSE_TYPE/
+en/ Loki/ stýrir/ ;/ VERSE_TYPE/
+fara/ fíflmegir/ VERSE_TYPE/
+með/ freka/ allir/ ,/ VERSE_TYPE/
+þeim/ er/ bróðir/ VERSE_TYPE/
+Býleists/ í/ för/ ./ VERSE_TYPE/
+
+52/ VERSE_TYPE/
+Surtr/ ferr/ sunnan/ VERSE_TYPE/
+með/ sviga/ lævi/ ,/ VERSE_TYPE/
+skínn/ af/ sverði/ VERSE_TYPE/
+sól/ valtíva/ ;/ VERSE_TYPE/
+grjótbjörg/ gnata/ ,/ VERSE_TYPE/
+en/ gífr/ rata/ ,/ VERSE_TYPE/
+troða/ halir/ helveg/ ,/ VERSE_TYPE/
+en/ himinn/ klofnar/ ./ VERSE_TYPE/
+
+53/ VERSE_TYPE/
+Þá/ kemr/ Hlínar/ VERSE_TYPE/
+harmr/ annarr/ fram/ ,/ VERSE_TYPE/
+er/ Óðinn/ ferr/ VERSE_TYPE/
+við/ ulf/ vega/ ,/ VERSE_TYPE/
+en/ bani/ Belja/ VERSE_TYPE/
+bjartr/ at/ Surti/ ;/ VERSE_TYPE/
+þá/ mun/ Friggjar/ VERSE_TYPE/
+falla/ angan/ ./ VERSE_TYPE/
+
+54/ VERSE_TYPE/
+Geyr/ nú/ Garmr/ mjök/ VERSE_TYPE/
+fyr/ Gnipahelli/ ,/ VERSE_TYPE/
+festr/ mun/ slitna/ ,/ VERSE_TYPE/
+en/ freki/ renna/ ;/ VERSE_TYPE/
+fjölð/ veit/ ek/ fræða/ ,/ VERSE_TYPE/
+fram/ sé/ ek/ lengra/ VERSE_TYPE/
+um/ ragna/ rök/ VERSE_TYPE/
+römm/ sigtíva/ ./ VERSE_TYPE/
+
+55/ VERSE_TYPE/
+Þá/ kemr/ inn/ mikli/ VERSE_TYPE/
+mögr/ Sigföður/ ,/ VERSE_TYPE/
+Víðarr/ ,/ vega/ VERSE_TYPE/
+at/ valdýri/ ./ VERSE_TYPE/
+Lætr/ hann/ megi/ Hveðrungs/ VERSE_TYPE/
+mundum/ standa/ VERSE_TYPE/
+hjör/ til/ hjarta/ ,/ VERSE_TYPE/
+þá/ er/ hefnt/ föður/ ./ VERSE_TYPE/
+
+56/ VERSE_TYPE/
+Þá/ kemr/ inn/ mæri/ VERSE_TYPE/
+mögr/ Hlóðynjar/ ,/ VERSE_TYPE/
+gengr/ Óðins/ sonr/ VERSE_TYPE/
+við/ orm/ vega/ ,/ VERSE_TYPE/
+drepr/ af/ móði/ VERSE_TYPE/
+Miðgarðs/ véurr/ ,/ VERSE_TYPE/
+munu/ halir/ allir/ VERSE_TYPE/
+heimstöð/ ryðja/ ;/ VERSE_TYPE/
+gengr/ fet/ níu/ VERSE_TYPE/
+Fjörgynjar/ burr/ VERSE_TYPE/
+neppr/ frá/ naðri/ VERSE_TYPE/
+níðs/ ókvíðnum/ ./ VERSE_TYPE/
+
+57/ VERSE_TYPE/
+Sól/ tér/ sortna/ ,/ VERSE_TYPE/
+sígr/ fold/ í/ mar/ ,/ VERSE_TYPE/
+hverfa/ af/ himni/ VERSE_TYPE/
+heiðar/ stjörnur/ ;/ VERSE_TYPE/
+geisar/ eimi/ VERSE_TYPE/
+ok/ aldrnari/ ,/ VERSE_TYPE/
+leikr/ hár/ hiti/ VERSE_TYPE/
+við/ himin/ sjalfan/ ./ VERSE_TYPE/
+
+58/ VERSE_TYPE/
+Geyr/ nú/ Garmr/ mjök/ VERSE_TYPE/
+fyr/ Gnipahelli/ ,/ VERSE_TYPE/
+festr/ mun/ slitna/ VERSE_TYPE/
+en/ freki/ renna/ ;/ VERSE_TYPE/
+fjölð/ veit/ ek/ fræða/ VERSE_TYPE/
+fram/ sé/ ek/ lengra/ VERSE_TYPE/
+um/ ragna/ rök/ VERSE_TYPE/
+römm/ sigtíva/ ./ VERSE_TYPE/
+
+59/ VERSE_TYPE/
+Sér/ hon/ upp/ koma/ VERSE_TYPE/
+öðru/ sinni/ VERSE_TYPE/
+jörð/ ór/ ægi/ VERSE_TYPE/
+iðjagræna/ ;/ VERSE_TYPE/
+falla/ forsar/ ,/ VERSE_TYPE/
+flýgr/ örn/ yfir/ ,/ VERSE_TYPE/
+sá/ er/ á/ fjalli/ VERSE_TYPE/
+fiska/ veiðir/ ./ VERSE_TYPE/
+
+60/ VERSE_TYPE/
+Finnask/ æsir/ VERSE_TYPE/
+á/ Iðavelli/ VERSE_TYPE/
+ok/ um/ moldþinur/ VERSE_TYPE/
+máttkan/ dæma/ VERSE_TYPE/
+ok/ minnask/ þar/ VERSE_TYPE/
+á/ megindóma/ VERSE_TYPE/
+ok/ á/ Fimbultýs/ VERSE_TYPE/
+fornar/ rúnir/ ./ VERSE_TYPE/
+
+61/ VERSE_TYPE/
+Þar/ munu/ eftir/ VERSE_TYPE/
+undrsamligar/ VERSE_TYPE/
+gullnar/ töflur/ VERSE_TYPE/
+í/ grasi/ finnask/ ,/ VERSE_TYPE/
+þærs/ í/ árdaga/ VERSE_TYPE/
+áttar/ höfðu/ ./ VERSE_TYPE/
+
+62/ VERSE_TYPE/
+Munu/ ósánir/ VERSE_TYPE/
+akrar/ vaxa/ ,/ VERSE_TYPE/
+böls/ mun/ alls/ batna/ ,/ VERSE_TYPE/
+Baldr/ mun/ koma/ ;/ VERSE_TYPE/
+búa/ þeir/ Höðr/ ok/ Baldr/ VERSE_TYPE/
+Hrofts/ sigtoftir/ ,/ VERSE_TYPE/
+vé/ valtíva/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+63/ VERSE_TYPE/
+Þá/ kná/ Hænir/ VERSE_TYPE/
+hlautvið/ kjósa/ VERSE_TYPE/
+ok/ burir/ byggja/ VERSE_TYPE/
+bræðra/ tveggja/ VERSE_TYPE/
+vindheim/ víðan/ ./ VERSE_TYPE/
+Vituð/ ér/ enn/ -/ eða/ hvat/ ?/ VERSE_TYPE/
+
+64/ VERSE_TYPE/
+Sal/ sér/ hon/ standa/ VERSE_TYPE/
+sólu/ fegra/ ,/ VERSE_TYPE/
+gulli/ þakðan/ VERSE_TYPE/
+á/ Gimléi/ ;/ VERSE_TYPE/
+þar/ skulu/ dyggvar/ VERSE_TYPE/
+dróttir/ byggja/ VERSE_TYPE/
+ok/ um/ aldrdaga/ VERSE_TYPE/
+ynðis/ njóta/ ./ VERSE_TYPE/
+
+65/ VERSE_TYPE/
+Þá/ kemr/ inn/ ríki/ VERSE_TYPE/
+at/ regindómi/ VERSE_TYPE/
+öflugr/ ofan/ ,/ VERSE_TYPE/
+sá/ er/ öllu/ ræðr/ ./ VERSE_TYPE/
