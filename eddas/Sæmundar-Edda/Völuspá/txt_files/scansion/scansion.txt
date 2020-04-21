@@ -103,14 +103,14 @@ dvergar/Px í/x jörðu/Px ,/ VERSE_TYPE/A1
 sem/x Durinn/px sagði/Px ./ VERSE_TYPE/C
 
 11/ VERSE_TYPE/
-Nýi/ ,/ Niði/ ,/ VERSE_TYPE/A1s
-Norðri/ ,/ Suðri/ ,/ VERSE_TYPE/A1
-Austri/ ,/ Vestri/ ,/ VERSE_TYPE/A1
-Alþjófr/ ,/ Dvalinn/ ,/ VERSE_TYPE/A1s
-Bívurr/ ,/ Bávurr/ ,/ VERSE_TYPE/A1
-Bömburr/ ,/ Nóri/ ,/ VERSE_TYPE/A1
-Ánn/ ok/ Ánarr/ ,/ VERSE_TYPE/A1
-Óinn/ ,/ Mjöðvitnir/ ./ VERSE_TYPE/C
+Nýi/px ok/x Niði/px ,/ VERSE_TYPE/A1s
+Norðri/Px ok/x Suðri/Px ,/ VERSE_TYPE/A1
+Austri/Px ok/x Vestri/Px ,/ VERSE_TYPE/A1
+Alþjófr/PS ,/ Dvalinn/px ,/ VERSE_TYPE/A1s
+Bívurr/Px ,/ Bávurr/Px ,/ VERSE_TYPE/A1
+Bömburr/Px ,/ Nóri/Px ,/ VERSE_TYPE/A1
+Ánn/P ok/x Ánarr/Px ,/ VERSE_TYPE/A1
+Óinn/px ,/ Mjöðvitnir/PSx ./ VERSE_TYPE/C
 
 12/ VERSE_TYPE/
 Veggr/ ok/ Gandalfr/ ,/ VERSE_TYPE/
@@ -123,36 +123,32 @@ Reginn/ ok/ Ráðsviðr/ ,/ VERSE_TYPE/
 rétt/ of/ talða/ ./ VERSE_TYPE/
 
 13/ VERSE_TYPE/
-Fíli/ ,/ Kíli/ ,/ VERSE_TYPE/
-Fundinn/ ,/ Náli/ ,/ VERSE_TYPE/
-Hefti/ ,/ Víli/ ,/ VERSE_TYPE/
-Hannar/ ,/ Svíurr/ ,/ VERSE_TYPE/
-Billingr/ ,/ Brúni/ ,/ VERSE_TYPE/
-Bíldr/ ok/ Buri/ ,/ VERSE_TYPE/
-Frár/ ,/ Hornbori/ ,/ VERSE_TYPE/
-Frægr/ ok/ Lóni/ ,/ VERSE_TYPE/
-Aurvangr/ ,/ Jari/ ,/ VERSE_TYPE/
-Eikinskjaldi/ ./ VERSE_TYPE/
+Fíli/ ,/ Kíli/ ,/ VERSE_TYPE/A1
+Fundinn/ ,/ Náli/ ,/ VERSE_TYPE/A1
+Hefti/ ,/ Víli/ ,/ VERSE_TYPE/A1
+Hannar/ ,/ Svíurr/ ,/ VERSE_TYPE/A1s
+Frár/ ,/ Hornbori/ ,/ VERSE_TYPE/D
+Frægr/ ok/ Lóni/ ,/ VERSE_TYPE/A1
+Aurvangr/ ,/ Jari/ ,/ VERSE_TYPE/A1s
+Eikinskjaldi/ ./ VERSE_TYPE/A1
 
 14/ VERSE_TYPE/
-Mál/ er/ dverga/ VERSE_TYPE/
-í/ Dvalins/ liði/ VERSE_TYPE/
-ljóna/ kindum/ VERSE_TYPE/
-til/ Lofars/ telja/ ,/ VERSE_TYPE/
-þeir/ er/ sóttu/ VERSE_TYPE/
-frá/ salar/ steini/ VERSE_TYPE/
-Aurvanga/ sjöt/ VERSE_TYPE/
-til/ Jöruvalla/ ./ VERSE_TYPE/
+Mál/P er/x dverga/Px VERSE_TYPE/A3
+í/x Dvalins/px liði/px VERSE_TYPE/C
+ljóna/Px kindum/Px VERSE_TYPE/A1
+til/x Lofars/px telja/Px ,/ VERSE_TYPE/C
+þeir/x er/x sóttu/Px VERSE_TYPE/A3
+frá/x salar/px steini/Px VERSE_TYPE/C
+Aurvanga/PSx sjöt/P VERSE_TYPE/E
+til/x Jöruvalla/pxSx ./ VERSE_TYPE/C
 
 15/ VERSE_TYPE/
-Þar/ var/ Draupnir/ VERSE_TYPE/
-ok/ Dolgþrasir/ ,/ VERSE_TYPE/
-Hár/ ,/ Haugspori/ ,/ VERSE_TYPE/
-Hlévangr/ ,/ Glóinn/ ,/ VERSE_TYPE/
-Dóri/ ,/ Óri/ VERSE_TYPE/
-Dúfr/ ,/ Andvari/ VERSE_TYPE/
-Skirfir/ ,/ Virfir/ ,/ VERSE_TYPE/
-Skáfiðr/ ,/ Ái/ ./ VERSE_TYPE/
+Þar/x var/x Draupnir/Px VERSE_TYPE/A3
+ok/x Dolgþrasir/Psx ,/ VERSE_TYPE/C
+Hár/P ,/ Haugspori/Psx ,/ VERSE_TYPE/D
+Hlévangr/PS ,/ Glóinn/px ,/ VERSE_TYPE/A1s
+Skirfir/Px ,/ Virfir/Px ,/ VERSE_TYPE/A1
+Skáfiðr/Px ,/ Ái/px ./ VERSE_TYPE/A1s
 
 16/ VERSE_TYPE/
 Alfr/ ok/ Yngvi/ ,/ VERSE_TYPE/
