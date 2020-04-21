@@ -103,16 +103,14 @@ dvergar/Px í/x jörðu/Px ,/ VERSE_TYPE/A1
 sem/x Durinn/px sagði/Px ./ VERSE_TYPE/C
 
 11/ VERSE_TYPE/
-Nýi/ ,/ Niði/ ,/ VERSE_TYPE/
-Norðri/ ,/ Suðri/ ,/ VERSE_TYPE/
-Austri/ ,/ Vestri/ ,/ VERSE_TYPE/
-Alþjófr/ ,/ Dvalinn/ ,/ VERSE_TYPE/
-Nár/ ok/ Náinn/ VERSE_TYPE/
-Nípingr/ ,/ Dáinn/ VERSE_TYPE/
-Bívurr/ ,/ Bávurr/ ,/ VERSE_TYPE/
-Bömburr/ ,/ Nóri/ ,/ VERSE_TYPE/
-Ánn/ ok/ Ánarr/ ,/ VERSE_TYPE/
-Óinn/ ,/ Mjöðvitnir/ ./ VERSE_TYPE/
+Nýi/ ,/ Niði/ ,/ VERSE_TYPE/A1s
+Norðri/ ,/ Suðri/ ,/ VERSE_TYPE/A1
+Austri/ ,/ Vestri/ ,/ VERSE_TYPE/A1
+Alþjófr/ ,/ Dvalinn/ ,/ VERSE_TYPE/A1s
+Bívurr/ ,/ Bávurr/ ,/ VERSE_TYPE/A1
+Bömburr/ ,/ Nóri/ ,/ VERSE_TYPE/A1
+Ánn/ ok/ Ánarr/ ,/ VERSE_TYPE/A1
+Óinn/ ,/ Mjöðvitnir/ ./ VERSE_TYPE/C
 
 12/ VERSE_TYPE/
 Veggr/ ok/ Gandalfr/ ,/ VERSE_TYPE/
