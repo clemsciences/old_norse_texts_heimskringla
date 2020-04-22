@@ -113,24 +113,24 @@ Bömburr/Px ,/ Nóri/Px ,/ VERSE_TYPE/A1
 Óinn/px ,/ Mjöðvitnir/PSx ./ VERSE_TYPE/C
 
 12/ VERSE_TYPE/
-Veggr/ ok/ Gandalfr/ ,/ VERSE_TYPE/
-Vindalfr/ ,/ Þorinn/ ,/ VERSE_TYPE/
-Þrár/ ok/ Þráinn/ ,/ VERSE_TYPE/
-Þekkr/ ,/ Litr/ ok/ Vitr/ ,/ VERSE_TYPE/
-Nýr/ ok/ Nýráðr/ ,/ VERSE_TYPE/
-nú/ hefi/ ek/ dverga/ ,/ VERSE_TYPE/
-Reginn/ ok/ Ráðsviðr/ ,/ VERSE_TYPE/
-rétt/ of/ talða/ ./ VERSE_TYPE/
+Veggr/P ok/x Gandalfr/PS ,/ VERSE_TYPE/A2b
+Vindalfr/PS ,/ Þorinn/px ,/ VERSE_TYPE/A1s
+Þrár/P ok/x Þráinn/Px ,/ VERSE_TYPE/A1s
+Þekkr/P ,/ Litr/P ok/x Vitr/P ,/ VERSE_TYPE/D_E
+Nýr/P ok/x Nýráðr/PS ,/ VERSE_TYPE/A2b
+nú/P hefi/xx ek/x dverga/Px ,/ VERSE_TYPE/A1
+Reginn/px ok/x Ráðsviðr/PS ,/ VERSE_TYPE/A2b
+rétt/P of/x talða/PS ./ VERSE_TYPE/A1
 
 13/ VERSE_TYPE/
-Fíli/ ,/ Kíli/ ,/ VERSE_TYPE/A1
-Fundinn/ ,/ Náli/ ,/ VERSE_TYPE/A1
-Hefti/ ,/ Víli/ ,/ VERSE_TYPE/A1
-Hannar/ ,/ Svíurr/ ,/ VERSE_TYPE/A1s
-Frár/ ,/ Hornbori/ ,/ VERSE_TYPE/D
-Frægr/ ok/ Lóni/ ,/ VERSE_TYPE/A1
-Aurvangr/ ,/ Jari/ ,/ VERSE_TYPE/A1s
-Eikinskjaldi/ ./ VERSE_TYPE/A1
+Fíli/Px ,/ Kíli/Px ,/ VERSE_TYPE/A1
+Fundinn/Px ,/ Náli/Px ,/ VERSE_TYPE/A1
+Hefti/Px ,/ Víli/Px ,/ VERSE_TYPE/A1
+Hannar/Px ,/ Svíurr/px ,/ VERSE_TYPE/A1s
+Frár/P ,/ Hornbori/PSx ,/ VERSE_TYPE/D
+Frægr/P ok/x Lóni/Px ,/ VERSE_TYPE/A1
+Aurvangr/PS ,/ Jari/px ,/ VERSE_TYPE/A1s
+Eikinskjaldi/PxSx ./ VERSE_TYPE/A1
 
 14/ VERSE_TYPE/
 Mál/P er/x dverga/Px VERSE_TYPE/A3
@@ -151,26 +151,26 @@ Skirfir/Px ,/ Virfir/Px ,/ VERSE_TYPE/A1
 Skáfiðr/Px ,/ Ái/px ./ VERSE_TYPE/A1s
 
 16/ VERSE_TYPE/
-Alfr/ ok/ Yngvi/ ,/ VERSE_TYPE/
-Eikinskjaldi/ ,/ VERSE_TYPE/
-Fjalarr/ ok/ Frosti/ ,/ VERSE_TYPE/
-Finnr/ ok/ Ginnarr/ ;/ VERSE_TYPE/
-þat/ mun/ æ/ uppi/ VERSE_TYPE/
-meðan/ öld/ lifir/ ,/ VERSE_TYPE/
-langniðja/ tal/ VERSE_TYPE/
-Lofars/ hafat/ ./ VERSE_TYPE/
+Alfr/P ok/x Yngvi/Px ,/ VERSE_TYPE/A1
+Eikinskjaldi/PxSx ,/ VERSE_TYPE/A1
+Fjalarr/px ok/x Frosti/Px ,/ VERSE_TYPE/A1
+Finnr/P ok/x Ginnarr/Px ;/ VERSE_TYPE/A1
+þat/x mun/x æ/N uppi/Px VERSE_TYPE/A3
+meðan/xx öld/P lifir/px ,/ VERSE_TYPE/C
+langniðja/PSx tal/P VERSE_TYPE/E
+Lofars/px hafat/px ./ VERSE_TYPE/D-
 
 -/ -/ -/ -/ -/ -/ -/ -/ -/ VERSE_TYPE/
 
 17/ VERSE_TYPE/
-Unz/ þrír/ kvámu/ VERSE_TYPE/
-ór/ því/ liði/ VERSE_TYPE/
-öflgir/ ok/ ástkir/ VERSE_TYPE/
-æsir/ at/ húsi/ ,/ VERSE_TYPE/
-fundu/ á/ landi/ VERSE_TYPE/
-lítt/ megandi/ VERSE_TYPE/
-Ask/ ok/ Emblu/ VERSE_TYPE/
-örlöglausa/ ./ VERSE_TYPE/
+Unz/x þrír/P kvámu/Px VERSE_TYPE/C
+ór/x því/P liði/Px VERSE_TYPE/C
+öflgir/Px ok/x ástkir/Px VERSE_TYPE/A1
+æsir/Px at/x húsi/Px ,/ VERSE_TYPE/A1
+fundu/Px á/x landi/Px VERSE_TYPE/A1
+lítt/P megandi/pXx VERSE_TYPE/D
+Ask/P ok/x Emblu/Px VERSE_TYPE/A1
+örlöglausa/PxSx ./ VERSE_TYPE/A1
 
 18/ VERSE_TYPE/
 Önd/ þau/ né/ áttu/ ,/ VERSE_TYPE/
