@@ -325,24 +325,24 @@ Dóri/ ,/ Óri/ VERSE_TYPE/A1s
 Dúfr/ ,/ Andvari/ VERSE_TYPE/
 
 31/ VERSE_TYPE/
-Ek/ sá/ Baldri/ ,/ VERSE_TYPE/A3
-blóðgum/ tívur/ ,/ VERSE_TYPE/A1
-Óðins/ barni/ ,/ VERSE_TYPE/A1
-örlög/ folgin/ ;/ VERSE_TYPE/A2a
-stóð/ of/ vaxinn/ VERSE_TYPE/A3
-völlum/ hæri/ VERSE_TYPE/A1
-mjór/ ok/ mjök/ fagr/ VERSE_TYPE/A2b
-mistilteinn/ ./ VERSE_TYPE/A1-
+Ek/x sá/x Baldri/Px ,/ VERSE_TYPE/A3
+blóðgum/Px tívur/Px ,/ VERSE_TYPE/A1
+Óðins/Px barni/Px ,/ VERSE_TYPE/A1
+örlög/PS folgin/Px ;/ VERSE_TYPE/A2a
+stóð/x of/x vaxinn/Px VERSE_TYPE/A3
+völlum/Px hæri/Px VERSE_TYPE/A1
+mjór/P ok/x mjök/P fagr/P VERSE_TYPE/A2b
+mistilteinn/PxS ./ VERSE_TYPE/A1-
 
 32/ VERSE_TYPE/
-Varð/ af/ þeim/ meiði/ ,/ VERSE_TYPE/A3
-er/ mær/ sýndisk/ ,/ VERSE_TYPE/C
-harmflaug/ hættlig/ ,/ VERSE_TYPE/A2a
-Höðr/ nam/ skjóta/ ;/ VERSE_TYPE/A1
-Baldrs/ bróðir/ var/ VERSE_TYPE/D
-of/ borinn/ snemma/ ,/ VERSE_TYPE/C
-sá/ nam/ Óðins/ sonr/ VERSE_TYPE/B
-einnættr/ vega/ ./ VERSE_TYPE/A1s
+Varð/x af/x þeim/x meiði/Px ,/ VERSE_TYPE/A3
+er/x mær/P sýndisk/Px ,/ VERSE_TYPE/C
+harmflaug/PS hættlig/Px ,/ VERSE_TYPE/A2a
+Höðr/P nam/x skjóta/Px ;/ VERSE_TYPE/A1
+Baldrs/P bróðir/Px var/P VERSE_TYPE/D
+of/x borinn/px snemma/Px ,/ VERSE_TYPE/C
+sá/x nam/x Óðins/Px sonr/P VERSE_TYPE/B
+einnættr/PS vega/px ./ VERSE_TYPE/A1s
 
 33/ VERSE_TYPE/
 Þó/ hann/ æva/ hendr/ VERSE_TYPE/A3-
